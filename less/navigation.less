@@ -1,22 +1,5 @@
 // Navigation Styles here
-nav{
-    .flexing();
-    border-bottom: 2px dashed @navigation-border;
-        
-        .links{
-            .spacing();
 
-            .links a{
-                font-family: inherit;
-                color: @shark;
-            }
-           
-         }//ends links//
-}// ends nav//
-
-.logotext{
-    .spacing();
-}
 header{
 
      .top-content{
@@ -25,5 +8,25 @@ header{
     
      } //topcontent ends//
 }//header ends//
+
+.logoContainer{
+    display:flex;
+    justify-content: flex-start;
+    .spacing();
+
+}
+
+nav{
+    display:flex;
+
+    .links{
+        justify-content: flex-end;
+
+        .links a{
+            justify-content: space-between;
+
+        }
+    }//links end//
+}//nav ends//
 
     
