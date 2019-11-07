@@ -235,6 +235,16 @@ header .top-content {
   width: 30%;
   margin-bottom: 30px;
 }
+.home .signUp {
+  display: block;
+  background-color: #17A2B8;
+  color: #FFFFFF;
+  margin: 0 10px 20px;
+  width: 80px;
+  height: 20%;
+  font-size: 2rem;
+  border-radius: 10%;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
