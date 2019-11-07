@@ -176,9 +176,6 @@ header {
 header .logoContainer {
   justify-content: flex-start;
 }
-header .logoContainer nav {
-  margin-left: 62px;
-}
 header .logoContainer nav .links {
   margin-left: 20px;
   font-size: 1.8rem;
