@@ -173,10 +173,9 @@ header .top-content {
   margin: 0 30px;
 }
 .logoContainer {
-  display: flex;
-  justify-content: flex-start;
   margin: 2%;
   padding: 1%;
+  max-width: 50%;
 }
 nav {
   display: flex;
