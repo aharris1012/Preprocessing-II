@@ -168,25 +168,21 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-header .logoContainer {
-  margin: 2%;
-  padding: 1%;
-  width: 50%;
-}
-header .logoContainer .logotext {
-  max-width: 50%;
-}
-header .logoContainer .logotext .top-content {
-  border-bottom: 2px dashed #C0C0C0;
-  margin: 30px;
-}
-nav {
-  max-width: 90%;
+header {
+  margin: 20px 0;
+  padding: 20px 0;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
-nav .first a {
-  margin: left 0;
+header .logoContainer {
+  justify-content: flex-start;
+}
+header .logoContainer nav {
+  margin-left: 62px;
+}
+header .logoContainer nav .links {
+  margin-left: 20px;
+  font-size: 1.8rem;
 }
 .home .content-section {
   margin: 30px 0;
@@ -204,6 +200,9 @@ nav .first a {
 }
 .home .content-section .img-content img {
   border-radius: 10px;
+}
+.home .topContent {
+  margin: 30px 0;
 }
 .home .inverse-content {
   padding-bottom: 30px;

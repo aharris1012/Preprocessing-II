@@ -1,36 +1,24 @@
 // Navigation Styles here
+header {
+ @navigation-border: @silver;
+  margin: 20px 0;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
 
-header{
-        
-        .logoContainer{
-            .spacing();
-            width: 50%;
-        
-            .logotext{
-                max-width: 50%;
-            
-            
-                .top-content{
-                    border-bottom: 2px dashed @navigation-border;
-                    margin: 30px;
-                }//topcontent//
-            }//logo//
-        
-        }//logocontainer//
-        
-    
-     
-}//header ends//
 
-nav{
-    max-width: 90%;
-    display:flex;
-    justify-content: flex-end;
+.logoContainer{
+    justify-content: flex-start;
 
-    .first a{
-        margin: left 0;
+    nav{
+        margin-left: 62px;
 
-    }//links end//
-}//nav ends//
+         .links{
+          margin-left: 20px;
+          font-size: 1.8rem;
+              
+        }//links//
+    }//nav//
 
-    
+    }//logoContainer//
+} //header//
