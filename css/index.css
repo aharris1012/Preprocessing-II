@@ -168,17 +168,17 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-header .top-content {
-  border-bottom: 2px dashed #C0C0C0;
-  margin: 0 30px;
-}
-.logoContainer {
+header .logoContainer {
   margin: 2%;
   padding: 1%;
   width: 50%;
 }
-.logoContainer .logotext {
+header .logoContainer .logotext {
   max-width: 50%;
+}
+header .logoContainer .logotext .top-content {
+  border-bottom: 2px dashed #C0C0C0;
+  margin: 30px;
 }
 nav {
   max-width: 90%;
