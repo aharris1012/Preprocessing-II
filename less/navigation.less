@@ -3,14 +3,15 @@ header {
  border-bottom: 2px dashed @navigation-border;
   padding:3%;
 
-  @media (max-width: 500px){
-    flex-direction: column;
-}
 
 
     nav{
         display:flex;
         justify-content: space-around;
+        
+        @media (max-width: 500px){
+            flex-direction: column;
+        }
 
          a {
          color: @shark;
