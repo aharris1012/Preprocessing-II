@@ -170,16 +170,18 @@ img {
 }
 header {
   border-bottom: 2px dashed #C0C0C0;
-  display: flex;
-  justify-content: space-between;
+  padding: 3%;
 }
-header .logoContainer {
-  justify-content: flex-start;
-  margin: 2%;
-}
-header .logoContainer .navigation {
+header nav {
   display: flex;
   justify-content: space-around;
+}
+header nav a {
+  color: #212529;
+}
+header nav a .logotext h2 {
+  display: flex;
+  justify-content: flex-start;
 }
 .home .content-section {
   margin: 30px 0;
@@ -191,7 +193,7 @@ header .logoContainer .navigation {
   .home .content-section {
     flex-direction: column;
     align-items: center;
-    width: 75%;
+    width: 100%;
   }
 }
 .home .content-section .text-content {
@@ -217,7 +219,7 @@ header .logoContainer .navigation {
   .home .inverse-content {
     flex-direction: column-reverse;
     align-items: center;
-    width: 75%;
+    width: 100%;
   }
 }
 .home .inverse-content .text-content {
@@ -245,7 +247,7 @@ header .logoContainer .navigation {
   .home .content-pick {
     flex-direction: column;
     align-items: center;
-    width: 75%;
+    width: 100%;
   }
 }
 .home .content-pick .destination {
