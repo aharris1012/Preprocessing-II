@@ -172,6 +172,11 @@ header {
   border-bottom: 2px dashed #C0C0C0;
   padding: 3%;
 }
+@media (max-width: 500px) {
+  header {
+    flex-direction: column;
+  }
+}
 header nav {
   display: flex;
   justify-content: space-around;
