@@ -9,14 +9,15 @@ header {
         display:flex;
         justify-content: space-around;
         
-        @media (max-width: 500px){
+        @media @mobile {
             flex-direction: column;
         }
 
          a {
          color: @shark;
          display:flex;
-         
+         font-size: 1.3rem;
+
 
          .logotext h2{
              display:flex;
@@ -26,6 +27,6 @@ header {
     }//nav//
 } //header//
 
-@media (max-width: 500px){
+/*@media @mobile {
     flex-direction: column;
 }
