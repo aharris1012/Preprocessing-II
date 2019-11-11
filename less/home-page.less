@@ -7,9 +7,7 @@
     justify-content: space-between;
 
     @media @mobile{
-      flex-direction: column;
-      align-items: center;
-      width:100%;
+     .formobile();
     }
     
     .text-content {
@@ -71,22 +69,19 @@
     justify-content: space-between;
 
     @media @mobile {
-      flex-direction: column;
-      align-items: center;
-      width:100%;
+      .formobile();
     }
 
     .destination {
       width: 30%;
       margin-bottom: 30px;
     }
+    .signUp {
+      .signUpButton();
+      color:@main-bg;
+      background-color:@button-bg;
+    }
 
   }
 
 }// home
-.signUp{
-  .signUpButton();
-  color:@main-bg;
-  background-color:@button-bg;
-  
-}
