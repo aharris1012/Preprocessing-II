@@ -1,1 +1,32 @@
 // Navigation Styles here
+header {
+ border-bottom: 2px dashed @navigation-border;
+  padding:3%;
+
+
+
+    nav{
+        display:flex;
+        justify-content: space-around;
+        
+        @media @mobile {
+            flex-direction: column;
+        }
+
+         a {
+         color: @shark;
+         display:flex;
+         font-size: 1.3rem;
+
+
+         .logotext h2{
+             display:flex;
+             justify-content: flex-start;
+         }//logoh2//
+         }//a//
+    }//nav//
+} //header//
+
+@media @mobile {
+    flex-direction: column;
+}
